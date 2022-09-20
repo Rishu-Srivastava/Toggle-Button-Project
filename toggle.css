@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: yellow;
+    height: 100vh;
+    position: relative;
+}
+.text{
+    position: absolute;
+    top: 50%;
+    left: 135%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 20px;
+}
+.outer{
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 40px;
+    width: 90px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.inner{
+    position: absolute;
+    background-color: white;
+    top: 20px;
+    left: 20px;
+    transform: translate(-50%, -50%);
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
